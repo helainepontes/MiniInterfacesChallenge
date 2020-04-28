@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03E61ADF2458590D0092355B /* Add Momento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E61ADE2458590D0092355B /* Add Momento.storyboard */; };
+		03E61AE324585E410092355B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E61AE224585E400092355B /* Card.swift */; };
+		03E61AE524585F9F0092355B /* FeelingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E61AE424585F9F0092355B /* FeelingCard.swift */; };
+		03E61AE7245864B20092355B /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E61AE6245864B20092355B /* Contacts.swift */; };
 		88EFC434245779E2007291B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFC433245779E2007291B2 /* AppDelegate.swift */; };
 		88EFC436245779E2007291B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFC435245779E2007291B2 /* SceneDelegate.swift */; };
 		88EFC43D245779ED007291B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFC43C245779ED007291B2 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E61ADE2458590D0092355B /* Add Momento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Add Momento.storyboard"; sourceTree = "<group>"; };
+		03E61AE224585E400092355B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		03E61AE424585F9F0092355B /* FeelingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingCard.swift; sourceTree = "<group>"; };
+		03E61AE6245864B20092355B /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		88EFC430245779E2007291B2 /* miniInterfaces10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniInterfaces10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EFC433245779E2007291B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EFC435245779E2007291B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03E61AE0245859C20092355B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88EFC46324577A39007291B2 /* TabBar.storyboard */,
+				88EFC46524577B07007291B2 /* Momentos.storyboard */,
+				03E61ADE2458590D0092355B /* Add Momento.storyboard */,
+				88EFC46724577B24007291B2 /* Estatisticas.storyboard */,
+				88EFC46924577B31007291B2 /* Apoio.storyboard */,
+				88EFC46B24577B3D007291B2 /* Ajustes.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03E61AE124585C930092355B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03E61AE224585E400092355B /* Card.swift */,
+				03E61AE6245864B20092355B /* Contacts.swift */,
+				03E61AE424585F9F0092355B /* FeelingCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		88EFC427245779E1007291B2 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +136,10 @@
 		88EFC432245779E2007291B2 /* miniInterfaces10 */ = {
 			isa = PBXGroup;
 			children = (
+				03E61AE124585C930092355B /* Model */,
+				03E61AE0245859C20092355B /* View */,
 				88EFC433245779E2007291B2 /* AppDelegate.swift */,
 				88EFC435245779E2007291B2 /* SceneDelegate.swift */,
-				88EFC46324577A39007291B2 /* TabBar.storyboard */,
-				88EFC46524577B07007291B2 /* Momentos.storyboard */,
-				88EFC46724577B24007291B2 /* Estatisticas.storyboard */,
-				88EFC46924577B31007291B2 /* Apoio.storyboard */,
-				88EFC46B24577B3D007291B2 /* Ajustes.storyboard */,
 				88EFC43C245779ED007291B2 /* Assets.xcassets */,
 				88EFC43E245779ED007291B2 /* LaunchScreen.storyboard */,
 				88EFC441245779ED007291B2 /* Info.plist */,
@@ -246,6 +274,7 @@
 				88EFC46A24577B31007291B2 /* Apoio.storyboard in Resources */,
 				88EFC440245779ED007291B2 /* LaunchScreen.storyboard in Resources */,
 				88EFC46824577B24007291B2 /* Estatisticas.storyboard in Resources */,
+				03E61ADF2458590D0092355B /* Add Momento.storyboard in Resources */,
 				88EFC46424577A39007291B2 /* TabBar.storyboard in Resources */,
 				88EFC43D245779ED007291B2 /* Assets.xcassets in Resources */,
 			);
@@ -273,6 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EFC434245779E2007291B2 /* AppDelegate.swift in Sources */,
+				03E61AE524585F9F0092355B /* FeelingCard.swift in Sources */,
+				03E61AE324585E410092355B /* Card.swift in Sources */,
+				03E61AE7245864B20092355B /* Contacts.swift in Sources */,
 				88EFC436245779E2007291B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

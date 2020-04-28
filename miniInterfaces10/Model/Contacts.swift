@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Contacts {
+    let name: String
+    let parents: String
+    let number: Int
+    
+    init(name: String, parents: String, number:Int) {
+        self.name = name
+        self.parents = parents
+        self.number = number
+    }
+}

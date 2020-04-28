@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct FeelingCard {
+    let color: String
+    let name: String
+    
+    init(color: String, name: String) {
+        self.color = color
+        self.name = name
+    }
+}

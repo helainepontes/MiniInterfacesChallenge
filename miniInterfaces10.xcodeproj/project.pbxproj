@@ -18,6 +18,10 @@
 		88EFC46824577B24007291B2 /* Estatisticas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFC46724577B24007291B2 /* Estatisticas.storyboard */; };
 		88EFC46A24577B31007291B2 /* Apoio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFC46924577B31007291B2 /* Apoio.storyboard */; };
 		88EFC46C24577B3D007291B2 /* Ajustes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFC46B24577B3D007291B2 /* Ajustes.storyboard */; };
+		DE7365E72458663D00E3E96B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7365E62458663D00E3E96B /* User.swift */; };
+		DE7365EB24586A0D00E3E96B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7365EA24586A0D00E3E96B /* Card.swift */; };
+		DE7365EC24586A0D00E3E96B /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7365E824586A0C00E3E96B /* Contacts.swift */; };
+		DE7365ED24586A0D00E3E96B /* FeelingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7365E924586A0D00E3E96B /* FeelingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		88EFC46724577B24007291B2 /* Estatisticas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Estatisticas.storyboard; sourceTree = "<group>"; };
 		88EFC46924577B31007291B2 /* Apoio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Apoio.storyboard; sourceTree = "<group>"; };
 		88EFC46B24577B3D007291B2 /* Ajustes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ajustes.storyboard; sourceTree = "<group>"; };
+		DE7365E62458663D00E3E96B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DE7365E824586A0C00E3E96B /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = /Users/eliasferreira/Code/swift/MiniInterfacesChallenge/miniInterfaces10/Model/Contacts.swift; sourceTree = "<absolute>"; };
+		DE7365E924586A0D00E3E96B /* FeelingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeelingCard.swift; path = /Users/eliasferreira/Code/swift/MiniInterfacesChallenge/miniInterfaces10/Model/FeelingCard.swift; sourceTree = "<absolute>"; };
+		DE7365EA24586A0D00E3E96B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = /Users/eliasferreira/Code/swift/MiniInterfacesChallenge/miniInterfaces10/Model/Card.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 		88EFC432245779E2007291B2 /* miniInterfaces10 */ = {
 			isa = PBXGroup;
 			children = (
+				DE7365E52458661500E3E96B /* Model */,
 				88EFC433245779E2007291B2 /* AppDelegate.swift */,
 				88EFC435245779E2007291B2 /* SceneDelegate.swift */,
 				88EFC46324577A39007291B2 /* TabBar.storyboard */,
@@ -135,6 +144,17 @@
 				88EFC457245779EE007291B2 /* Info.plist */,
 			);
 			path = miniInterfaces10UITests;
+			sourceTree = "<group>";
+		};
+		DE7365E52458661500E3E96B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE7365EA24586A0D00E3E96B /* Card.swift */,
+				DE7365E824586A0C00E3E96B /* Contacts.swift */,
+				DE7365E924586A0D00E3E96B /* FeelingCard.swift */,
+				DE7365E62458663D00E3E96B /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +294,10 @@
 			files = (
 				88EFC434245779E2007291B2 /* AppDelegate.swift in Sources */,
 				88EFC436245779E2007291B2 /* SceneDelegate.swift in Sources */,
+				DE7365ED24586A0D00E3E96B /* FeelingCard.swift in Sources */,
+				DE7365E72458663D00E3E96B /* User.swift in Sources */,
+				DE7365EB24586A0D00E3E96B /* Card.swift in Sources */,
+				DE7365EC24586A0D00E3E96B /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

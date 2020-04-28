@@ -19,7 +19,6 @@ class Card {
         self.feelingColor = feelingColor
         self.title = title
         self.description = description
-        let a = 10
         
     }
 }

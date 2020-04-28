@@ -126,7 +126,8 @@ iOSInjectionProject/
 /*.gcno
 
 ### Xcode Patch ###
+miniInterfaces10.xcodeproj/project.xcworkspace/xcuserdata/lucasoliveira.xcuserdatad/UserInterfaceState.xcuserstate
 **/xcshareddata/WorkspaceSettings.xcsettings
-
+miniInterfaces10.xcodeproj/project.xcworkspace/xcuserdata/
 miniInterfaces10.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 # End of https://www.gitignore.io/api/xcode,macos,swift
